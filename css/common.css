@@ -1,0 +1,218 @@
+/* 各个页面相同的样式 */
+/* 版心 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    height: 52px;
+    line-height: 52px;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.shortcut li a {
+    border-right: 1px solid #666;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #dcdcdc;
+    font-family: PingFangSC-Regular;
+}
+
+.shortcut li:nth-last-child(1) a {
+    border: 0;
+}
+
+.shortcut a .logo {
+    display: inline-block;
+    height: 16px;
+    width: 11px;
+
+    background-image: url("../images/sprites.png");
+    background-position: -160px -70px;
+    vertical-align: middle;
+
+    margin-right: 8px;
+}
+
+.header {
+    margin: 30px auto;
+    height: 70px;
+    /* background-color: pink; */
+}
+
+.header .logo {
+    height: 70px;
+    width: 207px;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+
+    margin-right: 40px;
+}
+
+.header .nav {
+    float: left;
+    margin-right: 34px;
+}
+
+.header li {
+    float: left;
+    line-height: 70px;
+}
+
+.header li a {
+    color: #333;
+    font-family: PingFangSC-Regular;
+    padding-bottom: 7px;
+    margin-right: 48px;
+}
+
+.header li a:hover {
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+.header .search {
+    float: left;
+    position: relative;
+
+    width: 172px;
+    height: 30px;
+    margin-top: 24px;
+    border-bottom: 2px solid #e7e7e7;
+
+    margin-right: 15px;
+}
+
+.header .search input {
+    width: 172px;
+    height: 28px;
+    padding-left: 30px;
+}
+
+.header .search input::placeholder {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.header .search span {
+    position: absolute;
+    left: 2px;
+    bottom: 8px;
+    height: 17px;
+    width: 17px;
+
+    background-image: url("../images/sprites.png");
+    background-position: -80px -70px;
+}
+
+.header .shopcar {
+    float: left;
+    position:relative;
+}
+
+.header .shopcar .car {
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    
+    margin-top: 28px;
+    background-image: url("../images/sprites.png");
+    background-position: -120px -70px;
+}
+
+.header .shopcar .points {
+    position: absolute;
+    left: 12px;
+    top: 22px;
+    width: 20px;
+	height: 15px;
+	background-color: #e26237;
+	border-radius: 8px;
+
+    font-size: 13px;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+}
+
+.footer {
+    height: 343px;
+    background-color: #333;
+}
+
+.footer .wrapper {
+    width: 1393px;
+}
+
+.footer .top {
+    height: 175px;
+    border-bottom: 3px solid #434343;
+
+    padding-left: 135px;
+    padding-top: 59px;
+}
+
+.footer .top li {
+    float: left;
+    position: relative;
+    height: 58px;
+    width: 195px;
+    /* background-color: pink; */
+
+    margin-right: 300px;
+}
+
+.footer .top li:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.footer .top li::before {
+    content: ' ';
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background-image: url("../images/sprites.png");
+
+    vertical-align: middle;
+}
+
+.footer .top li:nth-child(2)::before {
+    background-position: -130px 0;
+}
+
+.footer .top li:nth-child(3)::before {
+    background-position: -64px 0;
+}
+
+.footer .top li span {
+    position: absolute;
+    left: 64px;
+    top: 10px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer .bottom {
+    padding-top: 40px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .bottom a {
+    font-size: 14px;
+    color: #999;
+}
+
+.footer .bottom p {
+    margin-bottom: 20px;
+}
